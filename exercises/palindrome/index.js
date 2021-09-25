@@ -7,6 +7,19 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
-function palindrome(str) {}
+
+
+    function palindrome(str) {
+
+  
+        const reverseStr = str.split('').reverse().join(''); 
+        return reverseStr === str;
+      }
+      palindrome("A man, a plan, a canal. Panama");
+          
+      
+
+
+
 
 module.exports = palindrome;
